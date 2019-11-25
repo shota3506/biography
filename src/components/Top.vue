@@ -12,14 +12,14 @@
       Web Application Engineer (Backend / Frontend)
     </div>
 
-    <div class="extracareer section">
+    <div class="research section">
       <h1>Research</h1>
       <div>
-        Natural Language Processing
+        Natural Language Processing (NLP)
       </div>
     </div>
 
-    <div class="word section">
+    <div class="work section">
       <h1>Work Experience</h1>
       <table border="1">
         <tr>
