@@ -5,7 +5,10 @@
     <div class="status section">
       <h1>Introduction</h1>
       Graduate School of Information Science and Technology at the University of Tokyo <br>
-      <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab.</a> Master 1st <br>
+      Master 1st <br>
+      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab.</a> <br>
+      Natural Language Processing Research <br>
+      <br>
       Web Application Engineer (Backend / Frontend)
     </div>
 
@@ -16,8 +19,8 @@
       </div>
     </div>
 
-    <div class="extracareer section">
-      <h1>Extracareer Experience</h1>
+    <div class="word section">
+      <h1>Work Experience</h1>
       <table border="1">
         <tr>
           <th>year</th>
@@ -73,10 +76,12 @@
       <h1>Education</h1>
       <ul>
         <li>
-          Master student in Information Science and Technology, Department of Creative Informatics, the University of Tokyo, Present.
+          Master student in Information Science and Technology, Department of Creative Informatics, the University of Tokyo, Present. <br>
+          (Supervisor: Prof. Hideki Nakayama)
         </li>
         <li>
-          Bachelor's Degree in Engineering, Department of Systems Innovation, the University of Tokyo, March 2019.
+          Bachelor's Degree in Engineering, Department of Systems Innovation, the University of Tokyo, March 2019. <br>
+          (Supervisor: Prof. Yoshihiro Konno)
         </li>
       </ul>
     </div>
@@ -111,9 +116,12 @@ table td {
   margin: 0 8rem;
 }
 .section {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 .name {
   font-size: 2rem;
+}
+.education {
+  display:inline-block
 }
 </style>

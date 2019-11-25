@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <router-link to="/hoge">English/Japanese Page</router-link>
     <router-view></router-view>
   </div>
 </template>

@@ -1,6 +1,22 @@
-# biography
+# Biography
 
-## Project setup
+This website is for my self-introduction.
+
+## Development
+```
+docker-compose up
+```
+
+## Deployment
+```
+yarn build
+```
+
+After build, you publish /dist contents somehow.
+
+Currently, I use AWS S3 static website hosting.
+
+## Vue Project setup
 ```
 yarn install
 ```
