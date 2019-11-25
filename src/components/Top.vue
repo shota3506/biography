@@ -1,5 +1,6 @@
 <template>
   <div class="top">
+    <router-link to="/foo">Go to Foo</router-link>
     <div class="name section">Shota Sugiura</div>
 
     <div class="status section">
