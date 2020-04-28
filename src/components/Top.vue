@@ -1,12 +1,15 @@
 <template>
   <div class="top">
-    <router-link to="/foo">Go to Foo</router-link>
-    <div class="name section">Shota Sugiura</div>
+    <!-- <router-link to="/foo">Go to Foo</router-link> -->
+    <div class="name section">
+      <h1>Shota Sugiura</h1>
+      <div>s.shota.710.3506[at]gmail.com</div>
+    </div>
+
 
     <div class="status section">
-      <h1>Introduction</h1>
-      Graduate School of Information Science and Technology at the University of Tokyo <br>
-      Master 1st <br>
+      <h2>Introduction</h2>
+      Graduate School of Information Science and Technology at the University of Tokyo, Master 2nd. <br>
       Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab.</a> <br>
       Natural Language Processing Research <br>
       <br>
@@ -14,14 +17,14 @@
     </div>
 
     <div class="research section">
-      <h1>Research</h1>
+      <h2>Research</h2>
       <div>
         Natural Language Processing (NLP)
       </div>
     </div>
 
-    <div class="work section">
-      <h1>Work Experience</h1>
+    <div class="internship section">
+      <h2>Internship</h2>
       <table border="1">
         <tr>
           <th>year</th>
@@ -29,7 +32,7 @@
           <th>detail</th>
         </tr>
         <tr>
-          <td>2018/11-2019/11</td>
+          <td>Nov. 2018 - Nov. 2019</td>
           <td>Gracia</td>
           <td>
             Software Engineer <br>
@@ -37,7 +40,22 @@
           </td>
         </tr>
         <tr>
-          <td>2017/4-2018/6</td>
+          <td>Oct. 2019 - Nov. 2019</td>
+          <td>Recruit Technologies</td>
+          <td>Engineer / Serach Engine</td>
+        </tr>
+        <tr>
+          <td>Sept. 2019</td>
+          <td>freee</td>
+          <td>Software Engineer / Frontend Engineer / React</td>
+        </tr>
+        <tr>
+          <td>Aug. 2019</td>
+          <td>DeNA</td>
+          <td>Software Engineer / Backend Engineer / Golang</td>
+        </tr>
+        <tr>
+          <td>Apr. 2017 - June 2018</td>
           <td>GREE, Inc</td>
           <td>
             Software Engineer <br>
@@ -47,42 +65,20 @@
       </table>
     </div>
 
-    <div class="internship section">
-      <h1>Internship</h1>
-      <table border="1">
-        <tr>
-          <th>year</th>
-          <th>place</th>
-          <th>detail</th>
-        </tr>
-        <tr>
-          <td>2019/10-2019/11</td>
-          <td>Recruit Technologies</td>
-          <td>Engineer / Serach Engine</td>
-        </tr>
-        <tr>
-          <td>2019/9</td>
-          <td>freee</td>
-          <td>Software Engineer / Frontend Engineer / React</td>
-        </tr>
-        <tr>
-          <td>2019/8</td>
-          <td>DeNA</td>
-          <td>Software Engineer / Backend Engineer / Golang</td>
-        </tr>
-      </table>
-    </div>
-
     <div class="education section">
-      <h1>Education</h1>
+      <h2>Education</h2>
       <ul>
         <li>
-          Master student in Information Science and Technology, Department of Creative Informatics, the University of Tokyo, Present. <br>
-          (Supervisor: Prof. Hideki Nakayama)
+          Master of Information Science and Technology, Department of Creative Informatics, the University of Tokyo. <br>
+          Apr. 2019 - Mar. 2021 (expected) <br>
+          Supervisor: Prof. Hideki Nakayama <br>
+          Major: Machine learning, Natural language processing
         </li>
         <li>
-          Bachelor's Degree in Engineering, Department of Systems Innovation, the University of Tokyo, March 2019. <br>
-          (Supervisor: Prof. Yoshihiro Konno)
+          Bachelor of Engineering, Department of Systems Innovation, the University of Tokyo. <br>
+          Apr. 2015 - Mar. 2019 <br>
+          Supervisor: Prof. Yoshihiro Konno <br>
+          Major: Ocean science, Gas hydrate reservoir engineering, Computational  
         </li>
       </ul>
     </div>
@@ -96,15 +92,7 @@ export default {
 </script>
 
 <style scoped>
-ul {
-  margin: auto;
-}
-li {
-  text-align: left;
-}
 table {
-  margin: 2rem auto;
-  width: 80%;
   border-collapse: collapse;
 }
 table th {
@@ -114,13 +102,11 @@ table td {
   padding: 0.5rem 1rem;
 }
 .top {
-  margin: 0 8rem;
+  text-align: left;
+  margin: 0 16rem;
 }
 .section {
-  margin-bottom: 4rem;
-}
-.name {
-  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .education {
   display:inline-block
