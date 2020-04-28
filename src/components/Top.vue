@@ -25,7 +25,7 @@
 
     <div class="internship section">
       <h2>Internship</h2>
-      <table border="1">
+      <table class="table" border="1">
         <tr>
           <th>year</th>
           <th>place</th>
@@ -69,13 +69,13 @@
       <h2>Education</h2>
       <ul>
         <li>
-          Master of Information Science and Technology, Department of Creative Informatics, the University of Tokyo. <br>
+          <b>Master of Information Science and Technology, Department of Creative Informatics, The University of Tokyo.</b><br>
           Apr. 2019 - Mar. 2021 (expected) <br>
           Supervisor: Prof. Hideki Nakayama <br>
           Major: Machine learning, Natural language processing
         </li>
         <li>
-          Bachelor of Engineering, Department of Systems Innovation, the University of Tokyo. <br>
+          <b>Bachelor of Engineering, Department of Systems Innovation, The University of Tokyo.</b><br>
           Apr. 2015 - Mar. 2019 <br>
           Supervisor: Prof. Yoshihiro Konno <br>
           Major: Ocean science, Gas hydrate reservoir engineering, Computational  
@@ -92,15 +92,6 @@ export default {
 </script>
 
 <style scoped>
-table {
-  border-collapse: collapse;
-}
-table th {
-  padding: 0.5rem 1rem;
-}
-table td {
-  padding: 0.5rem 1rem;
-}
 .top {
   text-align: left;
   margin: 0 16rem;
@@ -108,7 +99,19 @@ table td {
 .section {
   margin-bottom: 2rem;
 }
-.education {
-  display:inline-block
+.table {
+  border-collapse: collapse;
+}
+.table th {
+  padding: 0.5rem;
+}
+.table td {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) { 
+  .top {
+    margin: 0 1rem;;
+  }
 }
 </style>
