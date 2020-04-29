@@ -23,8 +23,9 @@ export default {
   margin-top: 60px;
   
 }
-a {
+a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  color: #2962ff;
 }
 .copyright {
   color: #8a8a8a;

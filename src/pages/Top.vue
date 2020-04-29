@@ -8,7 +8,7 @@
     <div class="introduction section">
       <h2>Introduction</h2>
       Graduate School of Information Science and Technology at The University of Tokyo, Master 2nd. <br>
-      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a> <br>
+      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon :icon="'external-link-alt'" /></a> <br>
       Natural Language Processing Research <br>
       <br>
       Web Application Engineer (Backend / Frontend)
@@ -58,7 +58,7 @@
           <td>Gracia</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a> / TANP LINE Bot
+            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" /></a> / TANP LINE Bot
           </td>
         </tr>
         <tr>
@@ -81,7 +81,7 @@
           <td>GREE, Inc</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a>
+            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" /></a>
           </td>
         </tr>
       </table>
