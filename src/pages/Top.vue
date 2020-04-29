@@ -7,7 +7,7 @@
     </div>
 
 
-    <div class="status section">
+    <div class="introduction section">
       <h2>Introduction</h2>
       Graduate School of Information Science and Technology at the University of Tokyo, Master 2nd. <br>
       Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab.</a> <br>
@@ -16,10 +16,28 @@
       Web Application Engineer (Backend / Frontend)
     </div>
 
+    <div class="education section">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <b>Master of Information Science and Technology, Department of Creative Informatics, The University of Tokyo.</b><br>
+          Apr. 2019 - Mar. 2021 (expected) <br>
+          Supervisor: Prof. Hideki Nakayama <br>
+          Major: Machine learning, Natural language processing
+        </li>
+        <li>
+          <b>Bachelor of Engineering, Department of Systems Innovation, The University of Tokyo.</b><br>
+          Apr. 2015 - Mar. 2019 <br>
+          Supervisor: Prof. Yoshihiro Konno <br>
+          Major: Ocean science, Gas hydrate reservoir engineering, Computational  
+        </li>
+      </ul>
+    </div>
+
     <div class="research section">
       <h2>Research</h2>
       <div>
-        Natural Language Processing (NLP)
+        Natural Language Processing
       </div>
     </div>
 
@@ -63,24 +81,6 @@
           </td>
         </tr>
       </table>
-    </div>
-
-    <div class="education section">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <b>Master of Information Science and Technology, Department of Creative Informatics, The University of Tokyo.</b><br>
-          Apr. 2019 - Mar. 2021 (expected) <br>
-          Supervisor: Prof. Hideki Nakayama <br>
-          Major: Machine learning, Natural language processing
-        </li>
-        <li>
-          <b>Bachelor of Engineering, Department of Systems Innovation, The University of Tokyo.</b><br>
-          Apr. 2015 - Mar. 2019 <br>
-          Supervisor: Prof. Yoshihiro Konno <br>
-          Major: Ocean science, Gas hydrate reservoir engineering, Computational  
-        </li>
-      </ul>
     </div>
   </div>
 </template>
