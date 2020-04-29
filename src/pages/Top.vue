@@ -3,18 +3,21 @@
     <!-- <router-link to="/foo">Go to Foo</router-link> -->
     <div class="name section">
       <h1>Shota Sugiura</h1>
-      <div>s.shota.710.3506[at]gmail.com</div>
+      <div>
+        Addrss: Tokyo, Japan <br>
+        Email: s.shota.710.3506[at]gmail.com</div>
     </div>
-
 
     <div class="introduction section">
       <h2>Introduction</h2>
-      Graduate School of Information Science and Technology at the University of Tokyo, Master 2nd. <br>
-      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab.</a> <br>
+      Graduate School of Information Science and Technology at The University of Tokyo, Master 2nd. <br>
+      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon icon="external-link-alt" size="xs" /></a> <br>
       Natural Language Processing Research <br>
       <br>
       Web Application Engineer (Backend / Frontend)
     </div>
+
+    <hr>
 
     <div class="education section">
       <h2>Education</h2>
@@ -34,12 +37,16 @@
       </ul>
     </div>
 
+    <hr>
+
     <div class="research section">
       <h2>Research</h2>
       <div>
         Natural Language Processing
       </div>
     </div>
+
+    <hr>
 
     <div class="internship section">
       <h2>Internship</h2>
@@ -54,7 +61,7 @@
           <td>Gracia</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://tanp.jp/" target="_blank">TANP</a> / TANP LINE Bot
+            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon icon="external-link-alt" size="xs" /></a> / TANP LINE Bot
           </td>
         </tr>
         <tr>
@@ -77,7 +84,7 @@
           <td>GREE, Inc</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://arine.jp/" target="_blank">ARINE</a>
+            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon icon="external-link-alt" size="xs" /></a>
           </td>
         </tr>
       </table>
