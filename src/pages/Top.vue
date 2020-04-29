@@ -3,9 +3,6 @@
     <!-- <router-link to="/foo">Go to Foo</router-link> -->
     <div class="name section">
       <h1>Shota Sugiura</h1>
-      <div>
-        Addrss: Tokyo, Japan <br>
-        Email: s.shota.710.3506[at]gmail.com</div>
     </div>
 
     <div class="introduction section">
@@ -88,6 +85,13 @@
           </td>
         </tr>
       </table>
+    </div>
+
+    <div class="research access">
+      <h2>Access</h2>
+      <div>
+        Email: s.shota.710.3506[at]gmail.com
+      </div>
     </div>
   </div>
 </template>

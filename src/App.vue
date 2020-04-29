@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <router-view></router-view>
+    <footer>
+      <div class="copyright">© 2020 Shota Sugiura</div>
+    </footer>
   </div>
 </template>
 
@@ -18,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.copyright {
+  color: #8a8a8a;
+  font-size: 12px;
 }
 </style>
