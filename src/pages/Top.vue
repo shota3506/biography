@@ -8,7 +8,7 @@
     <div class="introduction section">
       <h2>Introduction</h2>
       Graduate School of Information Science and Technology at The University of Tokyo, Master 2nd. <br>
-      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon icon="external-link-alt" size="xs" /></a> <br>
+      Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a> <br>
       Natural Language Processing Research <br>
       <br>
       Web Application Engineer (Backend / Frontend)
@@ -58,7 +58,7 @@
           <td>Gracia</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon icon="external-link-alt" size="xs" /></a> / TANP LINE Bot
+            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a> / TANP LINE Bot
           </td>
         </tr>
         <tr>
@@ -81,16 +81,20 @@
           <td>GREE, Inc</td>
           <td>
             Software Engineer <br>
-            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon icon="external-link-alt" size="xs" /></a>
+            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" size="xs" /></a>
           </td>
         </tr>
       </table>
     </div>
 
-    <div class="research access">
-      <h2>Access</h2>
+    <hr>
+
+    <div class="research contact">
+      <h2>Contact</h2>
       <div>
-        Email: s.shota.710.3506[at]gmail.com
+        <font-awesome-icon :icon="'envelope'" size="lg" /> s.shota.710.3506[at]gmail.com <br>
+        <font-awesome-icon :icon="['fab', 'linkedin']" size="lg" /> <a href="https://www.linkedin.com/in/shota-sugiura-141055199" target="_blank" >LinkedIn</a> <br>
+        <font-awesome-icon :icon="['fab', 'github']" size="lg" /> <a href="https://github.com/shota3506" target="_blank" >Github</a>
       </div>
     </div>
   </div>
