@@ -38,8 +38,13 @@
 
     <div class="research section">
       <h2>Research</h2>
-      <div>
-        Natural Language Processing
+      <div>Keywords</div>
+      <div class="tags">
+        <div class="tag">Machine Learning</div>
+        <div class="tag">Natural Language Processing</div>
+        <div class="tag">Multimodal Machine Learning</div>
+        <div class="tag">Paraphrase Generation</div>
+        <div class="tag">Text Generation</div>
       </div>
     </div>
 
@@ -123,7 +128,18 @@ export default {
 .table td {
   padding: 0.5rem;
 }
-
+.tags {
+  padding: 0.5rem;
+}
+.tag {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem;
+  color: #333;
+  border: 0.2rem solid #ddd;
+  border-radius: 15.5rem;
+}
 @media screen and (max-width: 1024px) { 
   .top {
     margin: 0 1rem;;
