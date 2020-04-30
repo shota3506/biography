@@ -111,34 +111,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 .top {
   text-align: left;
-  margin: 0 16rem;
+  margin: 0 20rem;
 }
 .section {
   margin-bottom: 2rem;
 }
 .table {
   border-collapse: collapse;
-}
-.table th {
-  padding: 0.5rem;
-}
-.table td {
-  padding: 0.5rem;
+  th, td{
+    padding: 1rem;
+  }
 }
 .tags {
   padding: 0.5rem;
-}
-.tag {
-  display: inline-block;
-  font-size: 1.4rem;
-  padding: 0.4rem 0.8rem;
-  margin: 0.2rem;
-  color: #333;
-  border: 0.2rem solid #ddd;
-  border-radius: 15.5rem;
+  .tag {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.2rem;
+    color: #333;
+    border: 0.2rem solid #ddd;
+    border-radius: 15.5rem;
+  }
 }
 @media screen and (max-width: 1024px) { 
   .top {

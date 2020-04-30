@@ -13,7 +13,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "core-js": "^3.3.2",
+    "node-sass": "^4.14.0",
     "prerender-spa-plugin": "^3.4.0",
+    "sass-loader": "^8.0.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },

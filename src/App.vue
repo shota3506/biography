@@ -13,13 +13,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss'>
 html {
   font-size: 62.5%;
 }
 a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #2962ff;
+}
+footer {
+  margin-top: 2.0rem;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -28,8 +31,7 @@ a, a:link, a:visited, a:hover, a:active {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  
+  margin: 2.0rem 0;
 }
 .copyright {
   color: #8a8a8a;
