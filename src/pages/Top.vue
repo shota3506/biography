@@ -5,7 +5,7 @@
       <h1>Shota Sugiura</h1>
     </div>
 
-    <div class="introduction section">
+    <div class="section">
       <h2>Introduction</h2>
       Graduate School of Information Science and Technology at The University of Tokyo, Master 2nd. <br>
       Machine Perception Group <a href="http://www.nlab.ci.i.u-tokyo.ac.jp/" target="_blank">Nakayama Lab. <font-awesome-icon :icon="'external-link-alt'" /></a> <br>
@@ -16,7 +16,7 @@
 
     <hr>
 
-    <div class="education section">
+    <div class="section">
       <h2>Education</h2>
       <ul>
         <li>
@@ -36,7 +36,7 @@
 
     <hr>
 
-    <div class="research section">
+    <div class="section">
       <h2>Research</h2>
       <div>Keywords</div>
       <div class="tags">
@@ -50,7 +50,7 @@
 
     <hr>
 
-    <div class="internship section">
+    <div class="section">
       <h2>Internship</h2>
       <table class="table" border="1">
         <tr>
@@ -62,8 +62,7 @@
           <td>Nov. 2018 - Nov. 2019</td>
           <td>Gracia</td>
           <td>
-            Software Engineer <br>
-            Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" /></a> / TANP LINE Bot
+            Software Engineer / Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" /></a> / TANP LINE Bot
           </td>
         </tr>
         <tr>
@@ -74,19 +73,18 @@
         <tr>
           <td>Sept. 2019</td>
           <td>freee</td>
-          <td>Software Engineer / Frontend Engineer / React</td>
+          <td>Software Engineer / Web Frontend / React.js</td>
         </tr>
         <tr>
           <td>Aug. 2019</td>
           <td>DeNA</td>
-          <td>Software Engineer / Backend Engineer / Golang</td>
+          <td>Software Engineer / Web Backend / Golang</td>
         </tr>
         <tr>
           <td>Apr. 2017 - June 2018</td>
           <td>GREE, Inc</td>
           <td>
-            Software Engineer <br>
-            Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" /></a>
+            Software Engineer / Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" /></a>
           </td>
         </tr>
       </table>
@@ -94,12 +92,21 @@
 
     <hr>
 
-    <div class="research contact">
+    <div class="section">
       <h2>Contact</h2>
-      <div>
-        <font-awesome-icon :icon="'envelope'" size="lg" /> s.shota.710.3506[at]gmail.com <br>
-        <font-awesome-icon :icon="['fab', 'linkedin']" size="lg" /> <a href="https://www.linkedin.com/in/shota-sugiura-141055199" target="_blank" >LinkedIn</a> <br>
-        <font-awesome-icon :icon="['fab', 'github']" size="lg" /> <a href="https://github.com/shota3506" target="_blank" >Github</a>
+      <div class="contacts">
+        <div class="contact">
+          <font-awesome-icon :icon="'envelope'" class='contact__icon' />
+          <span class='contact__link'>s.shota.710.3506[at]gmail.com</span>
+        </div>
+        <div class="contact">
+          <font-awesome-icon :icon="['fab', 'linkedin']" class='contact__icon' />
+          <a href="https://www.linkedin.com/in/shota-sugiura-141055199" target="_blank" class='contact__link'>LinkedIn</a>
+        </div>
+        <div class="contact">
+          <font-awesome-icon :icon="['fab', 'github']" class='contact__icon' />
+          <a href="https://github.com/shota3506" target="_blank" class='contact__link'>Github</a>
+        </div>
       </div>
     </div>
   </div>
@@ -135,6 +142,27 @@ export default {
     color: #333;
     border: 0.2rem solid #ddd;
     border-radius: 15.5rem;
+  }
+}
+.contacts {
+  .contact {
+    width: 1;
+    &__icon {
+      font-size: 3.2rem;
+      height: 3.2rem;
+      width: 3.2rem;
+      margin-right: 1rem;
+      &:hover {
+        color: #2962ff;
+      }
+    }
+    &__link {
+      display: inline-block;
+      font-size: 1.6rem;
+      height: 3.2rem;
+      vertical-align:top;
+      line-height: 2;
+    }
   }
 }
 @media screen and (max-width: 1024px) { 
