@@ -22,7 +22,10 @@ a, a:link, a:visited, a:hover, a:active {
   color: #2962ff;
 }
 footer {
-  margin-top: 2.0rem;
+  margin-top: 2.4rem;
+}
+li {
+  padding-bottom: 1.2rem;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

@@ -36,13 +36,13 @@
           <b>The University of Tokyo, Graduate School of Information Science and Technology, Creative Informatics</b><br>
           Apr. 2019 - Mar. 2021<br>
           Master of Information Science and Technology<br>
-          Supervisor: Prof. Hideki Nakayama<br>
+          Supervisor is Prof. Hideki Nakayama.<br>
         </li>
         <li>
           <b>The University of Tokyo, Faculty of Engineering, Systems Innovation</b><br>
           Apr. 2015 - Mar. 2019<br>
           Bachelor of Engineering<br>
-          Supervisor: Prof. Yoshihiro Konno<br>
+          Supervisor is Prof. Yoshihiro Konno.<br>
         </li>
       </ul>
     </div>
@@ -53,8 +53,14 @@
       <h2>Research</h2>
       <h3>Natural Language Processing</h3>
       Paraphrase generation with deep neural networks.
+
       <h3>Ocean Science</h3>
       Anarysis on hydrate-bearing sediment using computational fluid dynamics.
+
+      <h3>Award</h3>
+      <ul>
+        <li>Young Researcher Encouragement Award, the Annual Meeting of the Association for Natural Language Processing (NLP), March 2021.</li>
+      </ul>
     </div>
     
     <hr>
