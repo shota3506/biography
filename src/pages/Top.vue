@@ -17,19 +17,32 @@
     <hr>
 
     <div class="section">
+      <h2>Career</h2>
+      <ul>
+        <li>
+          <b>Merpay, Inc.</b><br>
+          Apr. 2021 -<br>
+          Backend Engineer<br>
+        </li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="section">
       <h2>Education</h2>
       <ul>
         <li>
-          <b>Master of Information Science and Technology, Department of Creative Informatics, The University of Tokyo.</b><br>
-          Apr. 2019 - Mar. 2021 (expected) <br>
-          Supervisor: Prof. Hideki Nakayama <br>
-          Major: Machine learning, Natural language processing
+          <b>The University of Tokyo, Graduate School of Information Science and Technology, Creative Informatics</b><br>
+          Apr. 2019 - Mar. 2021<br>
+          Master of Information Science and Technology<br>
+          Supervisor: Prof. Hideki Nakayama<br>
         </li>
         <li>
-          <b>Bachelor of Engineering, Department of Systems Innovation, The University of Tokyo.</b><br>
-          Apr. 2015 - Mar. 2019 <br>
-          Supervisor: Prof. Yoshihiro Konno <br>
-          Major: Ocean science, Gas hydrate reservoir engineering, Computational  
+          <b>The University of Tokyo, Faculty of Engineering, Systems Innovation</b><br>
+          Apr. 2015 - Mar. 2019<br>
+          Bachelor of Engineering<br>
+          Supervisor: Prof. Yoshihiro Konno<br>
         </li>
       </ul>
     </div>
@@ -38,56 +51,30 @@
 
     <div class="section">
       <h2>Research</h2>
-      <div>Keywords</div>
-      <div class="tags">
-        <div class="tag">Machine Learning</div>
-        <div class="tag">Natural Language Processing</div>
-        <div class="tag">Multimodal Machine Learning</div>
-        <div class="tag">Paraphrase Generation</div>
-        <div class="tag">Text Generation</div>
-      </div>
+      <h3>Natural Language Processing</h3>
+      Paraphrase generation with deep neural networks.
+      <h3>Ocean Science</h3>
+      Anarysis on hydrate-bearing sediment using computational fluid dynamics.
     </div>
-
+    
     <hr>
 
     <div class="section">
       <h2>Internship</h2>
-      <table class="table" border="1">
-        <tr>
-          <th>year</th>
-          <th>place</th>
-          <th>detail</th>
-        </tr>
-        <tr>
-          <td>Nov. 2018 - Nov. 2019</td>
-          <td>Gracia</td>
-          <td>
-            Software Engineer / Development of <a href="https://tanp.jp/" target="_blank">TANP <font-awesome-icon :icon="'external-link-alt'" /></a> / TANP LINE Bot
-          </td>
-        </tr>
-        <tr>
-          <td>Oct. 2019 - Nov. 2019</td>
-          <td>Recruit Technologies</td>
-          <td>Engineer / Serach Engine</td>
-        </tr>
-        <tr>
-          <td>Sept. 2019</td>
-          <td>freee</td>
-          <td>Software Engineer / Web Frontend / React.js</td>
-        </tr>
-        <tr>
-          <td>Aug. 2019</td>
-          <td>DeNA</td>
-          <td>Software Engineer / Web Backend / Golang</td>
-        </tr>
-        <tr>
-          <td>Apr. 2017 - June 2018</td>
-          <td>GREE, Inc</td>
-          <td>
-            Software Engineer / Development of <a href="https://arine.jp/" target="_blank">ARINE <font-awesome-icon :icon="'external-link-alt'" /></a>
-          </td>
-        </tr>
-      </table>
+      <ul>
+        <li>
+          <b>Gracia, Inc.</b>, Nov. 2018 - Nov. 2019<br>
+          Developed a gift EC service "TANP" as a software engineer.
+        </li>
+        <li>
+          <b>Recruit Technologies Co., Ltd.</b>, Oct. 2019 - Nov. 2019<br>
+          Analyzed and Developed search engine in web applications as a software engineer.
+        </li>
+        <li>
+          <b>GREE, Inc.</b>, Apr. 2017 - June 2018<br>
+          Developed a beauty media service "ARINE" as a software engineer.
+        </li>
+      </ul>
     </div>
 
     <hr>
@@ -125,24 +112,6 @@ export default {
 }
 .section {
   margin-bottom: 2rem;
-}
-.table {
-  border-collapse: collapse;
-  th, td{
-    padding: 1rem;
-  }
-}
-.tags {
-  padding: 0.5rem;
-  .tag {
-    display: inline-block;
-    font-size: 1.4rem;
-    padding: 0.4rem 0.8rem;
-    margin: 0.2rem;
-    color: #333;
-    border: 0.2rem solid #ddd;
-    border-radius: 15.5rem;
-  }
 }
 .contacts {
   .contact {
